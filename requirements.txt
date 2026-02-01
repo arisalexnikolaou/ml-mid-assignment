@@ -1,0 +1,15 @@
+# Core scientific stack
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Visualizations
+seaborn
+
+# Deep learning
+tensorflow[and-cuda]
+
+# Jupyter environment (if needed outside an existing Jupyter setup)
+jupyter
+ipykernel

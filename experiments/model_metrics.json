@@ -1,0 +1,34 @@
+{
+    "data_source": "Summary of Weather.csv",
+    "target_variable": "MeanTemp",
+    "training_metrics": {
+        "MSE": 68.8486613032487,
+        "RMSE": 8.297509343366158,
+        "MAE": 5.841427260404932,
+        "R2 Score": 0.05599302379928972
+    },
+    "test_metrics": {
+        "MSE": 45.83122364644363,
+        "RMSE": 6.769876191367434,
+        "MAE": 4.821052414387596,
+        "R2 Score": 0.09921815923750787
+    },
+    "model_config": {
+        "lookback": 60,
+        "lstm_units": [
+            50,
+            50
+        ],
+        "dropout_rate": 0.2,
+        "epochs_trained": 18,
+        "batch_size": 32,
+        "optimizer": "adam",
+        "loss_function": "mean_squared_error"
+    },
+    "data_split": {
+        "train_size": 95172,
+        "test_size": 23748,
+        "train_percentage": 80,
+        "test_percentage": 20
+    }
+}
