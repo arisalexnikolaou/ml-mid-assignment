@@ -10,8 +10,8 @@ The `requirements.txt` describes the dependencies to run.
 The 'Summary of Weather.csv' is loaded by the notebook to analyze and predict weather patterns. This data is derived from the datasets from Kaggle: <https://www.kaggle.com/datasets/smid80/weatherww2>
 
 The '/results' folder contains snapshots of the graphs used to analyze the performance of the models.
-The '/output' folder stores the metrics and predicts values of the multi-variate LSTM model
-The '/models' folder contains the LSTM models trained
+The '/output' folder stores the metrics and predicts values of the multi-variate LSTM model.
+The '/models' folder contains the LSTM models trained.
 
 ## 2. Prerequisites
 
