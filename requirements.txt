@@ -8,7 +8,8 @@ scikit-learn
 seaborn
 
 # Deep learning
-tensorflow[and-cuda]
+tensorflow
+# tensorflow[and-cuda] older versions of windows
 
 # Jupyter environment (if needed outside an existing Jupyter setup)
 jupyter
