@@ -40,7 +40,7 @@ The LSTM models took about an hour on a GPU enabled power workstation with the f
 
 #### Train
 
-RMSE: 	0.5152
+RMSE: 	    0.5152
 MSE: 		0.2654
 MAE: 		0.1659
 R²: 		0.9959
@@ -65,7 +65,8 @@ R²: 		0.0844
 
 See predictions graph: figure-2-lstm-naive-predictions.png
 See residuals graph: /results/figure-3-lstm-naive-residuals.png
- 
+See trading history graph: /results/figure-8-lstm-naive-training-history.png
+
 ### LSTM Enhanced by Station Univariate
 
 #### Train
@@ -102,6 +103,7 @@ MAE: 		1.0616
 R²: 		0.9317
 
 See predictions graph: /results/figure-5-lstm-mv-predictions.png
+See training history graph: /results/figure-7-lstm-mv-training-history.png
 See residual analysis graph: /results/figure-6-lstm-mv-residuals.png
  
 As the dataset is quite small it appears that the linear regression model performed the best.
@@ -123,7 +125,7 @@ The biggest influence on the model accuracy among the LSTM implementations as th
 
 Give the public nature of the dataset and the time since it was published there are no significant ethical considerations to be evaluated when constructing the solution. There is no PII data and no (political) bias in the underlying dataset to be cautious of.
 
-### References:
+### References
 
 - GeeksforGeeks (2025) What is LSTM Long Short-Term Memory? <https://www.geeksforgeeks.org/deep-learning/deep-learning-introduction-to-long-short-term-memory/>.
 - Salman, A. (2018) Single Layer & Multi-layer Long Short-Term Memory (LSTM) Model with Intermediate Variables for Weather Forecasting. <https://www.sciencedirect.com/science/article/pii/S187705091831439X#abs0001> (Accessed: January 14, 2026).
